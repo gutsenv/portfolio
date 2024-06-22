@@ -26,6 +26,7 @@ function Home() {
       <h1>@gutsenv</h1>
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
+      <Link to="/contact">Contact</Link>
     </Wrapper>
   );
 }
