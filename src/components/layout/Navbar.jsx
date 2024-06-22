@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
   display: flex;
+  height: 6rem;
+  align-items: center;
   padding: 0 4rem;
 
-  p {
+  a {
+    text-decoration: none;
     font-size; 1rem;
     font-weight: 600;
     font-family: sans-serif;
@@ -15,7 +19,7 @@ const Wrapper = styled.div`
 function Navbar() {
   return (
     <Wrapper>
-      <p>LOGO</p>
+      <Link to="/">LOGO</Link>
     </Wrapper>
   );
 }
