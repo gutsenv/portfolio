@@ -4,8 +4,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 
   div {
     display: flex;
@@ -19,6 +17,7 @@ const Wrapper = styled.div`
     color: #a0a0a0;
     font-size: 14px;
     margin: 0;
+    text-align: center;
   }
 `;
 
@@ -27,9 +26,7 @@ function About() {
     <Wrapper>
       <div>
         <h3>Programming Languages:</h3>
-        <p>JavaScript, Typescript</p>
-        {/* <p>Python</p> */}
-        {/* <p>Bash</p> */}
+        <p>JavaScript, TypeScript, Python</p>
       </div>
       <div>
         <h3>Frontend Libraries/Frameworks:</h3>
@@ -47,8 +44,7 @@ function About() {
       </div>
       <div>
         <h3>Backend Technologies/Frameworks:</h3>
-        <p>Node.js (Express), GraphQL, Rest API</p>
-        {/* <p>Django</p> */}
+        <p>Node.js (Express), Django, GraphQL, Rest API</p>
         {/* <p>Firebase</p> */}
       </div>
       <div>
@@ -59,7 +55,7 @@ function About() {
       </div>
       <div>
         <h3>Testing Tools:</h3>
-        <p>Jest (Unit Tests), Cypress (End-to-end Tests)</p>
+        <p>Jest, Cypress</p>
       </div>
       <div>
         <h3>Package Manager/Build Tools:</h3>
@@ -88,7 +84,7 @@ function About() {
         <p>WebSockets, WebRTC</p>
       </div>
       <div>
-        <h3>What i'm currently learning:</h3>
+        <h3>Currently learning:</h3>
         <p>Shell Scripting (Bash)</p>
         <p>Cybersecurity Foundations (Cybrary)</p>
       </div>

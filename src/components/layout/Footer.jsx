@@ -6,13 +6,11 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  bottom: 0;
   background: #fff;
 
   p {
     font-size: 12px;
-    color: rgba(0,0,0,0.3);
+    color: rgba(0, 0, 0, 0.3);
   }
 `;
 

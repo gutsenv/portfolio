@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   gap: 1.5rem;
   padding-top: 10rem;
 
-  h1 {
+  p {
     color: #a0a0a0;
   }
 
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
 function Home() {
   return (
     <Wrapper>
-      <h1>@gutsenv</h1>
+      <p>{"/** portfolio website: under construction **/"}</p>
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/contact">Contact</Link>
