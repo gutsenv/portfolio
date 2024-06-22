@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 function Navbar() {
   return (
     <Wrapper>
-      <Link to="/">guts.env</Link>
+      <Link to="/">@guts.env</Link>
     </Wrapper>
   );
 }

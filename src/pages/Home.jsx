@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 
   p {
     color: #a0a0a0;
+    text-align: center;
   }
 
   a {
