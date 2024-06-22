@@ -24,8 +24,8 @@ function Home() {
   return (
     <Wrapper>
       <h1>@gutsenv</h1>
-      <Link to="/projects">Projects</Link>
       <Link to="/about">About</Link>
+      <Link to="/projects">Projects</Link>
     </Wrapper>
   );
 }
