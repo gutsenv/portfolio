@@ -4,8 +4,12 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   display: flex;
   height: 6rem;
+  width: 100%;
   align-items: center;
   padding: 0 4rem;
+  position: fixed;
+  top: 0;
+  background: #fff;
 
   a {
     text-decoration: none;
@@ -19,7 +23,7 @@ const Wrapper = styled.div`
 function Navbar() {
   return (
     <Wrapper>
-      <Link to="/">LOGO</Link>
+      <Link to="/">GUTS</Link>
     </Wrapper>
   );
 }

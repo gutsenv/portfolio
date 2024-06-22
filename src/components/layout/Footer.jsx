@@ -8,10 +8,11 @@ const Wrapper = styled.div`
   justify-content: center;
   position: fixed;
   bottom: 0;
+  background: #fff;
 
   p {
-    font-size: 1rem;
-    color: #a0a0a0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.3);
   }
 `;
 
